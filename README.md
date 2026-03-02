@@ -12,10 +12,10 @@ The goal of this project is to practice:
 - Designing producion-like ETL workflows
 - Orchestrating pipelines using Airflow DAGs
 
-1. ## Detailed description of the ETL process
+## Detailed description of the ETL process
 For this project, the ETL processing flow will consist of 2 steps:
 1. Step 1: Extract raw data from DynamoDB and then load it into the cleansed folder on AWS S3.
 2. Step 2: Extract cleansed data from S3, then perform simple transform and finally load into transformed folder on AWS S3, PostgreSQL database
 
-2. ## Architecture Overview
+## Architecture Overview
 DynamoDB → S3 (Cleansed) → S3 (Transformed) → PostgreSQL
