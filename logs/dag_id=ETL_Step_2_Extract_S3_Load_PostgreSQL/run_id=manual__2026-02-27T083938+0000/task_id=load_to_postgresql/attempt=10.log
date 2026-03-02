@@ -1,0 +1,11 @@
+{"timestamp":"2026-02-27T09:02:40.506445Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-27T09:02:40.507689Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ETL_Step_2_S3_PostgreSQL.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-27T09:02:41.141803Z","level":"info","event":"Found credentials in shared credentials file: ~/.aws/credentials","logger":"botocore.credentials","filename":"credentials.py","lineno":1364}
+{"timestamp":"2026-02-27T09:02:41.279560Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ETL_Step_2_S3_PostgreSQL.py","lineno":13,"logger":"py.warnings"}
+{"timestamp":"2026-02-27T09:02:41.279695Z","level":"warning","event":"The `airflow.operators.python.get_current_context` attribute is deprecated. Please use `'airflow.sdk.get_current_context'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ETL_Step_2_S3_PostgreSQL.py","lineno":15,"logger":"py.warnings"}
+{"timestamp":"2026-02-27T09:02:41.303272Z","level":"info","event":"Start load data into PostgreSQL ...","logger":"task.stdout"}
+{"timestamp":"2026-02-27T09:02:41.307949Z","level":"info","event":"Lỗi khi lưu dữ liệu: column \"is_large_order\" of relation \"orders\" does not exist","logger":"task.stdout"}
+{"timestamp":"2026-02-27T09:02:41.308391Z","level":"info","event":"LINE 2: ...ustomer_ID,Total_price,Order_status,shipping_city,Is_large_o...","logger":"task.stdout"}
+{"timestamp":"2026-02-27T09:02:41.308684Z","level":"info","event":"                                                             ^","logger":"task.stdout"}
+{"timestamp":"2026-02-27T09:02:41.309092Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-27T09:02:41.308018Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":215}
