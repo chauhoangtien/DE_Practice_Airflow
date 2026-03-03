@@ -41,7 +41,7 @@ def check_table_exists(table_name: str):
 
 def save_to_postgre(df, table_name):
     cur = None
-    table_name = f"orders.{table_name}"
+    table_name = f"order.{table_name}"
     check_table_exists(table_name) 
 
     try: 

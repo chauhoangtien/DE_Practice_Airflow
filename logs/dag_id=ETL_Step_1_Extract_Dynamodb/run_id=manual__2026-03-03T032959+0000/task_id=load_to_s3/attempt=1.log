@@ -1,0 +1,8 @@
+{"timestamp":"2026-03-03T03:30:12.494255Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-03T03:30:12.495546Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ETL_Step_1_DynamoDB_S3.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-03T03:30:12.965083Z","level":"info","event":"Found credentials in shared credentials file: ~/.aws/credentials","logger":"botocore.credentials","filename":"credentials.py","lineno":1364}
+{"timestamp":"2026-03-03T03:30:13.212768Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ETL_Step_1_DynamoDB_S3.py","lineno":10,"logger":"py.warnings"}
+{"timestamp":"2026-03-03T03:30:13.212901Z","level":"warning","event":"The `airflow.operators.python.get_current_context` attribute is deprecated. Please use `'airflow.sdk.get_current_context'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ETL_Step_1_DynamoDB_S3.py","lineno":12,"logger":"py.warnings"}
+{"timestamp":"2026-03-03T03:30:13.248671Z","level":"info","event":"Start load data into S3 ...","logger":"task.stdout"}
+{"timestamp":"2026-03-03T03:30:15.549017Z","level":"info","event":"Load object succesfully","logger":"task.stdout"}
+{"timestamp":"2026-03-03T03:30:15.548903Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":215}
